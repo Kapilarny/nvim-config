@@ -12,6 +12,11 @@ return {
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
     }
+
+    -- config.on_init = function(new_client)
+    --   new_client.offset_encoding = 'utf-32'
+    -- end
+
     return config -- return final config table
   end,
 }
